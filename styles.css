@@ -198,18 +198,28 @@ nav {
     justify-content: center;
     gap: 2rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.section-header-with-image h2,
+.section-header-with-image h3 {
+    margin: 0;
 }
 
 .section-header-image {
-    height: 80px;
+    height: 150px;
     width: auto;
     object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .section-image {
-    height: 60px;
+    height: 120px;
     width: auto;
     object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 /* Services Grid */
@@ -479,11 +489,11 @@ footer {
     }
     
     .section-header-image {
-        height: 60px;
+        height: 100px;
     }
     
     .section-image {
-        height: 50px;
+        height: 80px;
     }
     
     .logo-image {
